@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f60248a6-e401-4fde-8729-6bd40ff6988d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaLearning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+    <list default="true" id="f60248a6-e401-4fde-8729-6bd40ff6988d" name="Changes" comment="Homework for review 11-12-13">
+      <change afterPath="$PROJECT_DIR$/src/Homework12/Concordance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework12/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework12/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework12/ValueComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework13a/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework13a/CarAssemblyLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework13a/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework13a/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework13a/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework13a/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Store/Lesson9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework11/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework11/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework11/IncorrectFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework11/IncorrectFileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework11/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework11/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -37,10 +46,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/onemy/JavaLearning/JavaLearning/src/Homework13a"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\onemy\JavaLearning\JavaLearning\src\Homework13a" />
+      <recent name="C:\Users\onemy\JavaLearning\JavaLearning\src\Homework2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Homework2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Homework13a.CarAssemblyLine">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -72,6 +91,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarAssemblyLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework13a.Homework13.CarAssemblyLine" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework13a.Homework13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework13a.CarAssemblyLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework13a.CarAssemblyLine" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework13a.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework12.Task2" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework12.Task3" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework13.Test" />
+      <module name="JavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Homework13a.CarAssemblyLine" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.CarAssemblyLine" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,6 +175,49 @@
       <option name="presentableId" value="Default" />
       <updated>1693839377466</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW#3">
+      <created>1694554067700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694554067700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homework 2, 3, 4">
+      <created>1694674919878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694674919878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework update">
+      <created>1694975766493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694975766493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Homework update">
+      <created>1695677035555</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695677035555</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework 7">
+      <created>1695736065803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695736065803</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework 11">
+      <created>1696942492962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696942492962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,5 +230,44 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW#3" />
+    <MESSAGE value="Homework 2, 3, 4" />
+    <MESSAGE value="Homework update" />
+    <MESSAGE value="Homework 7" />
+    <MESSAGE value="Homework 11" />
+    <MESSAGE value="Homework for review 11-12-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for review 11-12-13" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework3/Task4.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework2/Task9.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Homework13/Car.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Homework3/Task10.java</url>
+          <line>17</line>
+          <properties class="Homework3.Task10" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
